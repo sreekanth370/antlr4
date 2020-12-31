@@ -1,7 +1,9 @@
 sudo: true
 
 language: java
-
+arch:
+  - amd64
+  - ppc64le
 before_cache:
   - rm -rf $HOME/.m2/repository/org/antlr
 cache:
